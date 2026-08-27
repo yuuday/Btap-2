@@ -8,15 +8,15 @@ public class B4 {
         System.out.print("Nhập vào số N: ");
         int n = sc.nextInt();
 
-        int soGoc = n;
-        int daoNguoc = 0;
+        int number = n;
+        int reverse = 0;
 
         while (n !=0) {
             int chuSo = n % 10;
-            daoNguoc = daoNguoc * 10 + chuSo;
+            reverse = reverse * 10 + number;
             n = n / 10;
         }
-        System.out.println("Số đảo ngược của " + soGoc + "là: " + daoNguoc);
+        System.out.println("Số đảo ngược của " + number + "là: " + reverse);
 
     }
 }

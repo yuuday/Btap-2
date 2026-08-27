@@ -14,9 +14,9 @@ public class B5 {
         System.out.println("5. Matcha Latte:  500k$");
         System.out.print("Nhập lựa chọn của bạn: ");
 
-        int luaChon = sc.nextInt();
+        int yourChoice = sc.nextInt();
 
-        switch (luaChon) {
+        switch (yourChoice) {
             case 1:
                 System.out.println("Cafe Đen: 20k$");
                 break;
