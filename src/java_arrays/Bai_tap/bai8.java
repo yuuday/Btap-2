@@ -3,7 +3,6 @@ package java_arrays.Bai_tap;
 import java.util.Scanner;
 
 public class bai8 {
-
     public static boolean isPrime(int n) {
         if (n < 2) {
             return false;
@@ -15,7 +14,6 @@ public class bai8 {
         }
         return true;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
