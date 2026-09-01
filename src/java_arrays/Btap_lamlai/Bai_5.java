@@ -15,7 +15,6 @@ public class Bai_5 {
                 break;// khi đó thì sẽ không cần kiểm tra tiếp và thoát vòng lặp for
             }
         }
-
         if (isSorted) {
             System.out.println("Đã được sắp xếp tăng dần");
         } else {
