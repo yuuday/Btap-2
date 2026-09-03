@@ -3,7 +3,7 @@ package java_arrays.Btap_lamlai;
 public class Bai_3 {
     static void main(String[] args) {
 
-        int [] array = new int[] {5, 9, 10, 2, 3};
+        int [] array = new int[] {1, 1, 1, 1};
         int max = array[0];
         int min = array[0];
         int indexMax = 0;
@@ -19,18 +19,17 @@ public class Bai_3 {
                 lúc đó index sẽ cập nhật vị trí của array[i]
                 */
             }
-
             if (array[i] < min) {
                 min = array[i];
                 indexMin = i;
             } // tương tự với tìm max
         }
         System.out.printf("Value Max: %s has index %s \n", max, indexMax);
-        System.out.printf("Value Min: %s has index %s", min, indexMin);
         if (max == min) {
             System.out.println("Hasn't Min");
         }else {
 
+            System.out.printf("Value Min: %s has index %s", min, indexMin);
         }
 // ở phần điều kiện cuối khi max = min thì sẽ hiển thị không có min
     }
