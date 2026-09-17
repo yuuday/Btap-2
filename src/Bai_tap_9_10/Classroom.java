@@ -22,6 +22,10 @@ public class Classroom {
         Student sv6 = new Student("C", "sv6", 7.5);
         Student sv7 = new Student("D", "sv7", 6.5);
         Student sv8 = new Student("A", "sv8", 9.6);
+        Student sv9 = new Student("E", "sv9", 6.6);
+        Student sv10 = new Student("F", "sv10", 5.0);
+        Student sv11 = new Student("G", "sv11", 3.6);
+        Student sv12 = new Student("H", "sv12", 9.9);
 
         classroom.addStudent(sv1);
         classroom.addStudent(sv2);
@@ -31,6 +35,10 @@ public class Classroom {
         classroom.addStudent(sv6);
         classroom.addStudent(sv7);
         classroom.addStudent(sv8);
+        classroom.addStudent(sv9);
+        classroom.addStudent(sv10);
+        classroom.addStudent(sv11);
+        classroom.addStudent(sv12);
 
         Student top = classroom.findValedictorian();
 
@@ -53,7 +61,7 @@ public class Classroom {
     public Student findValedictorian() {
         Student topStudent = students[0];
 
-        for (int i = 1; i < size ; i++) {
+        for (int i = 1; i < size; i++) {
             if (students[i].gpa > topStudent.gpa) {
                 topStudent = students[i];
             }
