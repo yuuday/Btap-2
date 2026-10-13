@@ -20,7 +20,7 @@ public class Bai_3 {
         DateTimeFormatter formated = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss (z, Z)");
 
 
-        System.out.println("_____Lịch Họp Quốc Tế_____");
+        System.out.println("________________Lịch Họp Quốc Tế_________________");
         System.out.println("VietNam Number 1 : " + vnMeeting.format(formated));
         System.out.println("Tokyo Number 5.  : " + tokyoMeeting.format(formated));
         System.out.println("NewYork Number 10: " + newYorkMeeting.format(formated));
